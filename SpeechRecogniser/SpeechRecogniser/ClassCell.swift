@@ -9,5 +9,6 @@ import UIKit
 
 class ClassCell: UICollectionViewCell {
     
+    @IBOutlet weak var imageFetched: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
 }
